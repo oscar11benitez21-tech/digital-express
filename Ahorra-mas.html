@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahorra Más - Digital Express</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f4f0ff;color:#30284a;margin:0;padding:25px}
+.sheet{background:white;max-width:800px;margin:20px auto;padding:35px;border-radius:15px}
+h1,h2{color:#6543b8}
+input{border:0;border-bottom:1px solid #aaa;padding:7px;width:90px}
+table{width:100%;border-collapse:collapse;margin:15px 0}
+td,th{border:1px solid #ddd;padding:10px;text-align:left}
+th{background:#eee8ff}
+.section{margin-top:30px}
+.print{background:#6543b8;color:white;border:0;padding:12px 20px;border-radius:8px}
+@media print{
+body{background:white;padding:0}
+.sheet{box-shadow:none;margin:0;max-width:none}
+.print{display:none}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+<h1>AHORRA MÁS</h1>
+<p><b>Tu planificador personal de ahorro</b></p>
+<p>Nombre: __________________________</p>
+<p>Mes: _____________________________</p>
+
+<div class="section">
+<h2>1. Mi meta de ahorro</h2>
+<p>¿Para qué quiero ahorrar?</p>
+<p>__________________________________</p>
+<p>Mi meta total: $ __________</p>
+<p>Fecha para alcanzarla: ____________</p>
+</div>
+
+<div class="section">
+<h2>2. Mi presupuesto mensual</h2>
+<table>
+<tr><th>Concepto</th><th>Presupuesto</th><th>Real</th></tr>
+<tr><td>Ingresos</td><td>$</td><td>$</td></tr>
+<tr><td>Alimentación</td><td>$</td><td>$</td></tr>
+<tr><td>Transporte</td><td>$</td><td>$</td></tr>
+<tr><td>Vivienda</td><td>$</td><td>$</td></tr>
+<tr><td>Servicios</td><td>$</td><td>$</td></tr>
+<tr><td>Otros gastos</td><td>$</td><td>$</td></tr>
+<tr><td>Ahorro</td><td>$</td><td>$</td></tr>
+</table>
+</div>
+
+<div class="section">
+<h2>3. Registro de gastos</h2>
+<table>
+<tr><th>Fecha</th><th>Descripción</th><th>Monto</th></tr>
+<tr><td></td><td></td><td>$</td></tr>
+<tr><td></td><td></td><td>$</td></tr>
+<tr><td></td><td></td><td>$</td></tr>
+<tr><td></td><td></td><td>$</td></tr>
+<tr><td></td><td></td><td>$</td></tr>
+<tr><td></td><td></td><td>$</td></tr>
+</table>
+</div>
+
+<div class="section">
+<h2>4. Mi reto de ahorro</h2>
+<p>Marca cada vez que ahorres:</p>
+<table>
+<tr><th>Semana</th><th>Meta</th><th>Ahorrado</th></tr>
+<tr><td>Semana 1</td><td>$10</td><td>$_____</td></tr>
+<tr><td>Semana 2</td><td>$10</td><td>$_____</td></tr>
+<tr><td>Semana 3</td><td>$10</td><td>$_____</td></tr>
+<tr><td>Semana 4</td><td>$10</td><td>$_____</td></tr>
+</table>
+</div>
+
+<div class="section">
+<h2>5. Mi reflexión del mes</h2>
+<p>¿Qué hice bien con mi dinero?</p>
+<p>__________________________________</p>
+<p>¿Qué puedo mejorar el próximo mes?</p>
+<p>__________________________________</p>
+</div>
+
+<p><b>DIGITAL EXPRESS</b> · Pequeños pasos, grandes metas.</p>
+<button class="print" onclick="window.print()">Imprimir o guardar como PDF</button>
+</div>
+</body>
+</html>
